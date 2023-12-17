@@ -43,6 +43,9 @@
   align-items: center;
   gap: 2rem;
 }
+.nav-list li a:hover {
+  color: rgba(0, 67, 140, 1);
+}
 a {
   text-decoration: none;
   color: #fff;
@@ -70,6 +73,10 @@ li {
   font-weight: 500;
   line-height: 25px; /* 156.25% */
 }
+.buy-button:hover {
+  background-color: rgba(0, 67, 140, 1);
+  color: #fff;
+}
 #toggle-btn {
   display: none;
 }
@@ -78,7 +85,7 @@ li {
   width: 55vw;
   height: 100vh;
   display: block;
-  background-color: rgba(123, 123, 229, 0.8);
+  background-color: rgba(0, 67, 140, 0.9);
   position: fixed;
   top: 0;
   left: 0;
