@@ -3,6 +3,7 @@
   z-index: 998;
 }
 .hero-center {
+  max-width: 1605px;
   display: flex;
   flex-direction: row;
   align-items: center;

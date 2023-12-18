@@ -3,6 +3,7 @@
   background: url(../images/Path\ 5.png);
   background-repeat: no-repeat;
   height: max-content;
+  max-width: 1400px;
 }
 .about-center-2 {
   background: url(../images/Path\ 6.png);
@@ -10,16 +11,17 @@
   height: max-content;
 }
 .about-center-2 {
+  max-width: 1400px;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 1rem;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0 2rem;
   padding-bottom: 1rem;
 }
 .about-left > img {
-  max-width: 30vw;
+  max-width: 80%;
 }
 .about-right {
   display: flex;
@@ -74,6 +76,11 @@
   background-color: rgb(255, 255, 255);
   color: #00438c;
 }
+.about-right button:hover a {
+  /* background-color: rgb(255, 255, 255); */
+  color: #00438c;
+}
+
 .about-center-2 > img {
   transform: translateY(-50%);
 }
